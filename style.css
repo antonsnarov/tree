@@ -1,0 +1,10 @@
+.hide::before{
+    content: "+ ";
+}
+.show::before{
+    content: "- ";
+}
+.tree span:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
